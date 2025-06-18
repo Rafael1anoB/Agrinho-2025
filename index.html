@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+        <div style="text-align:center;font-family:sans-serif">
+        <h1>Batata Clicker</h1>
+        <button id="btnBatata" onclick="clicarNaBatata()" style="font-size:40px;padding:30px;">🥔</button>
+        <p>Batatas: <span id="batatas">0</span></p>
+        <button id="btnKurger" onclick="venderParaKurger()">Vender para Kurger Bing (<span id="precoKurger">10</span> 🥔)</button>
+        <span>Vendas: <span id="vendasKurger">0</span></span>
+        <br><br>
+        <button id="btnMcNalds" onclick="venderParaMcNalds()">Vender para Do Mcnalds (<span id="precoMcNalds">15</span> 🥔)</button>
+        <span>Vendas: <span id="vendasMcNalds">0</span></span>
+        <div id="mensagemVitoria"></div>
+    </div>
+    <main>
+    <main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
