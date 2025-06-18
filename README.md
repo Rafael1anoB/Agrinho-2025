@@ -13,5 +13,5 @@ venda 10 vezes para cada empresa e produza mais de 100 batatas para ganhar o jog
 
 
 Fontes
-Jogo que deu a ideia: Cookie Clicker
+Jogo que deu a ideia: Cookie Clicker,
 ajudantes para códigos e correção de bugs: Copiloto
